@@ -1,1 +1,85 @@
 
+body{
+
+background-image: url(../img/background\ login.png);
+background-repeat: no-repeat;
+background-size: cover;
+ overflow: hidden;
+
+}
+
+
+
+.root{
+
+    --text-: blue;
+    --backcard-: #4d4b4b;
+}
+
+
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.card{
+    background-color: var(--backcard-);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+    opacity: 1;
+}
+
+p{
+    font-size: 18px;
+    margin-bottom: 0px;
+    animation: alternate ease-in-out 1s infinite trocarcor;
+}
+
+.put{
+    display: block;
+ padding: 1px;
+ margin-left: 60px;
+ border-radius: 20px;
+}
+
+button{
+    border-radius: 30px;
+    color: rgb(59, 255, 19);
+   
+}
+
+.cantores{
+    width: 150px;
+    height: 150px;
+}
+
+img{}
+
+@keyframes trocarcor{
+    0%{ color: yellow;}
+    50%{
+        color: blue;
+    }
+    100%{
+        color: green;
+    }
+}
+
+
+
+@media screen and (max-width: 769px){
+ body{
+    background-image: url(../img/background\ mobile.png);
+    
+ }
+}
