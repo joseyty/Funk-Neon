@@ -6,3 +6,23 @@ background-size: cover;
  overflow: hidden;
 
 }
+
+
+.cantores{
+ display: flex;
+ justify-content: space-between;
+}
+
+.personas{
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+
+}
+
+
+.personas2{
+     width: 500px;
+    height: 500px;
+    margin: 10px;
+}
