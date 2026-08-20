@@ -1,3 +1,6 @@
+
+
+
 body{
      
 background-image: url(../img/background\ rio.png);
@@ -14,15 +17,140 @@ background-size: cover;
 }
 
 .personas{
-    width: 400px;
-    height: 500px;
+    width: 700px;
+    height: 800px;
     margin: 10px;
+    display: block;
+    position: relative;
+}
 
+.morro{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+ 
+}
+
+
+.personas:first-child {
+    left: 220px;
+}
+
+.personas:last-child {
+    right: 220px;
 }
 
 
 .personas2{
-     width: 500px;
-    height: 500px;
+     width: 30%;
+    height: 90%;
     margin: 10px;
+    display: block;
+     margin-top: -50px;
+
+}
+
+.xoxo{
+    color: yellow;
+    margin-left: 25%;
+}
+
+
+
+ 
+.container {
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    transform: translate(-50%, -50%);
+    width: 190px;
+    height: 190px;
+    z-index: 10;
+}
+
+ 
+.container2{
+    position: absolute;
+    top: 30%;
+    left: 92%;
+    transform: translate(-50%, -50%);
+    width: 190px;
+    height: 190px;
+    z-index: 10;
+}
+P{
+    color: aliceblue;
+      font-size: 20px;
+      margin-left: 14px;
+}
+
+.card {
+    width: 220px;
+    height: 350px;
+    background-color: rgba(20, 20, 20, 0.6);
+    border-radius: 20px;
+    backdrop-filter: blur(4px);
+    border: 0.01px solid rgb(158, 158, 3);
+}
+
+.card2 {
+    width: 220px;
+    height: 350px;
+    background-color: rgba(20, 20, 20, 0.6);
+    border-radius: 20px;
+    backdrop-filter: blur(4px);
+    border: 0.01px solid rgb(158, 158, 3);
+}
+
+
+.botu{
+    background: rgba(57, 57, 58, 0.35);
+    width: 90px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 60px;
+    border-radius: 9px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 0, 0.5);
+    transition: 0.3s;
+  
+}
+
+.botu:hover{
+    background: rgba(168, 165, 165, 0.55);
+    border-color: yellow;
+    transform: scale(1.03); 
+}
+
+.loja{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: -20px;
+    left: 50%;
+}
+
+.foot{
+      position: fixed;
+    display: block;
+    top: 90%;
+    right: 0;
+     width:  100%;
+    height: 130px;
+}
+
+
+footer{
+    position: fixed;
+    display: block;
+    top: 90%;
+    right: 0;
+    background-color: rgba(20, 20, 20, 0.6);
+     backdrop-filter: blur(50px);
+    width:  100%;
+    height: 130px;
 }
